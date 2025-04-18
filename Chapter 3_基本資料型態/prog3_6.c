@@ -1,14 +1,13 @@
 /* prog3_6, 字元型態的列印問題 */
 # include <stdio.h>
 # include <stdlib.h>
-Int main(void)
+int main(void)
 {
 
 	int i=298;                                 /* 宣告字元變數ch，並設值為’2’ */
-	printf(“ASCII of (%d)= %c\n”, i,i);   /* 列印出ASCII碼為 i 的字元 */
+	printf("ASCII of (%d)= %c\n", i,i);   /* 列印出ASCII碼為 i 的字元 */
 
-
-	system(“pause”);
+	system("pause");
 	return 0;
 
 }
