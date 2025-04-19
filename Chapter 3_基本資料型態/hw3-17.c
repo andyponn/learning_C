@@ -1,15 +1,14 @@
-/* hw3-16, 利用sizeof 查詢資料型態所占位元組 */
+/* hw3-17, 利用sizeof 查詢  各常數所占位元組 */
 #include <stdio.h>
 #include <stdlib.h>
 int main(void)
 {
-	unsigned int type_unint;
-	double type_double;
-	unsigned short int type_un_s_int;
 	
-	printf("sizeof(unsigned int)=%d\n",sizeof(type_unint));
-	printf("sizeof(double)=%d\n",sizeof(type_double));
-	printf("sizeof(unsigned short int)=%d\n",sizeof(type_un_s_int));
+	printf("sizeof(578)=%d\n",sizeof(578));
+	printf("sizeof(784000000)=%d\n",sizeof(784000000));
+	printf("sizeof(6.78f)=%d\n",sizeof(6.78f));
+	printf("sizeof(718.26)=%d\n",sizeof(718.26));
+	printf("sizeof(6.42e127)=%d\n",sizeof(6.42e127));
 	
     system("pause");
     return 0;
